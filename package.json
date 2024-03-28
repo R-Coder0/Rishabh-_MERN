@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kunalcode0.github.io/kunal",
+  "homepage": "http://R-coder0.github.io/Rishabh_MERN",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,6 @@
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
-    "gh-pages": "^5.0.0",
     "mongodb": "^6.5.0",
     "mongoose": "^6.12.7",
     "react": "^18.2.0",
@@ -50,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
