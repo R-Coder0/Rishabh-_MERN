@@ -1,0 +1,124 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.contact-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-p1{
+    color: var(--color-3);
+}
+.contact-p2{
+    color: var(--color-4);
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
+.contact-logo img{
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+.container.contact__container{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 4rem;
+}
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+.contact__option{
+    background: var(--color-3);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__icon{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.contact__option a{
+    margin-top: .7rem;
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--color-4);
+}
+.contact__option h4,h5{
+    color: #fff;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+}
+.contact-btn{
+    color: var(--color-4);
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: 2px solid var(--color-4);
+    font-size: 1rem;
+}
+.contact-btn:hover{
+    color: #fff;
+    background-color: var(--color-4);
+    border-color: #fff;
+}
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--color-4);
+    resize: none;
+    color: black;
+    font-size: 1rem;
+}
+::placeholder{
+    color: var(--color-3);
+}
+
+@media screen and (max-width:1024px) {
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .container.contact__container{
+      width: var(--container-width-sm);
+    }
+    
+    
+}
+
+@media screen and (max-width:450px) {
+    .contact-logo img{
+        height: 10rem;
+        
+    }
+}
+@media screen and (max-width:300px) {
+    .contact-logo~ img{
+        height: 7rem;
+    }
+
+}

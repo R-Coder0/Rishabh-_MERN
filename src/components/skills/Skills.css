@@ -1,0 +1,65 @@
+.skill-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.skills-logo img{
+    height: 15rem;
+    margin-top: 2rem;
+}
+.skill-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skill-p1{
+    color: var(--color-3);
+}
+.skill-p2{
+    color: var(--color-4);
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
+.skills-img{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    width: 70%;
+   gap: 4rem;
+   margin-top: 2rem;
+   background-color: var(--color-3);
+   justify-content: space-evenly;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+   border-radius: 1rem;
+}
+
+.skill-html,.skill-css,.skill-js,.skill-node,.skill-express,.skill-mongodb,.skill-react,.skill-git,.skill-github,.skill-figma,.skill-xd{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.img-html,.img-css,.img-js,.img-node,.img-express,.img-mongodb,.img-react,.img-git,.img-github,.img-figma,.img-xd{
+    height: 5rem;
+}
+.p-skill{
+    color: #fff;
+    margin-top: .3rem;
+}
+
+@media screen and (max-width:750px) {
+    .skills-img{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 95%;
+        }
+
+        .skills-logo img{
+            height: 10rem;
+        }
+           
+}
+

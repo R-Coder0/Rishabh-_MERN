@@ -1,0 +1,80 @@
+.certificate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.certificates-logo img{
+    height: 15rem;
+    margin-top: 2rem;
+}
+.certificate__img img{
+  height: 35rem;
+}
+.certificate-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.certificate-p1{
+    color: var(--color-3);
+}
+.certificate-p2{
+    color: var(--color-4);
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
+.certificate-logo img{
+    height: 18rem;
+    margin-top: 1rem;
+}
+
+
+.achivement__container{
+  width: 80%;
+
+}
+.achivement{
+  background: var(--color-bg-varient);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .achivement__container{
+      width: 80%;
+  }
+  .certificate__img img{
+    height: 25rem;
+  }
+  
+}
+
+
+
+@media screen and (max-width:750px) {
+  .achivement__container{
+      width: 90%;
+  }
+  .certificate__img img{
+    height: 15rem;
+  }
+  
+}
+
+@media screen and (max-width:450px) {
+  .achivement__container{
+      width: 95%;
+  }
+  .certificate__img img{
+    height: 10rem;
+  }
+  
+}

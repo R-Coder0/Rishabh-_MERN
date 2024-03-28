@@ -1,0 +1,57 @@
+.social-container{
+    background-color: var(--color-1);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.social-cv{
+    gap: 1rem;
+    display: flex;
+}
+.cv-btn{
+    background-color: var(--color-4);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: 2px solid #fff;
+}
+.talk-btn{
+    color: var(--color-4);
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: 2px solid var(--color-4);
+}
+.social-links{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+.social-links a{
+    color: var(--color-3);
+}
+.social-links a:hover{
+    color: var(--color-4);
+}
+
+@media screen and (max-width:350px) {
+
+    .social-cv{
+        gap: 1rem;
+        display: flex;
+    }
+    .cv-btn{
+       
+        padding: .7rem 1rem;
+      
+    }
+    .talk-btn{
+       
+        padding: .7rem 1rem;
+        border-radius: .5rem;
+        
+    }
+}
