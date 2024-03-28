@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Rishabh_MERN/static/css/main.c4c3961b.css",
+    "main.js": "/Rishabh_MERN/static/js/main.0e911f03.js",
+    "static/media/E-LearningWeb.png": "/Rishabh_MERN/static/media/E-LearningWeb.d14334d58108af58a346.png",
+    "static/media/weather-app.png": "/Rishabh_MERN/static/media/weather-app.9e72fed5006d24d0268e.png",
+    "static/media/main-gif.gif": "/Rishabh_MERN/static/media/main-gif.9565a227b5879c275816.gif",
+    "static/media/DigitalMarketing.png": "/Rishabh_MERN/static/media/DigitalMarketing.06ec0f4edcb6c0152263.png",
+    "static/media/BloggingWebsite.png": "/Rishabh_MERN/static/media/BloggingWebsite.8755e223afc1bc464774.png",
+    "static/media/portfolio.png": "/Rishabh_MERN/static/media/portfolio.994ce70a1ebc075aab6b.png",
+    "static/media/lgm.png": "/Rishabh_MERN/static/media/lgm.b9cbcf66f653f91b65d6.png",
+    "static/media/gym-app.png": "/Rishabh_MERN/static/media/gym-app.da61a9efadd9072fc5b5.png",
+    "static/media/certificate1.png": "/Rishabh_MERN/static/media/certificate1.f4fc6ad273c12e6dc3cd.png",
+    "static/media/certificate3.png": "/Rishabh_MERN/static/media/certificate3.0892697dedf6bd38c842.png",
+    "static/media/certificate7.png": "/Rishabh_MERN/static/media/certificate7.4adf7b74e50c73473add.png",
+    "static/media/certificate6.png": "/Rishabh_MERN/static/media/certificate6.8a7b9da1573ec78acad2.png",
+    "static/media/certificate4.png": "/Rishabh_MERN/static/media/certificate4.538d4be3315c0ff21c66.png",
+    "static/media/about.png": "/Rishabh_MERN/static/media/about.6e6f178f9bd3fd7d5b00.png",
+    "static/media/skills.png": "/Rishabh_MERN/static/media/skills.4b4a32d77e5725bd316c.png",
+    "static/media/experience.png": "/Rishabh_MERN/static/media/experience.2a4c67cc53ea000daeb3.png",
+    "static/media/resume.pdf": "/Rishabh_MERN/static/media/resume.72b7cca149e8f5ac2170.pdf",
+    "static/media/contact.png": "/Rishabh_MERN/static/media/contact.ad5b4d70cf2de311a2ec.png",
+    "static/media/projects.png": "/Rishabh_MERN/static/media/projects.a741a67caf9aba5d245d.png",
+    "static/media/logo123.png": "/Rishabh_MERN/static/media/logo123.f7140cf826409d75834d.png",
+    "static/media/react.png": "/Rishabh_MERN/static/media/react.7f810bcc50eb5be9eda3.png",
+    "index.html": "/Rishabh_MERN/index.html",
+    "main.c4c3961b.css.map": "/Rishabh_MERN/static/css/main.c4c3961b.css.map",
+    "main.0e911f03.js.map": "/Rishabh_MERN/static/js/main.0e911f03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4c3961b.css",
+    "static/js/main.0e911f03.js"
+  ]
+}
