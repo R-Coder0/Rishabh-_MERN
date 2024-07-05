@@ -34,9 +34,10 @@ function Portfolio() {
             <div className="portfolio__image">
                 <img src={img3} alt="" />
             </div>
-            <h3>Responsive Resturant Website</h3>
+            <h3>Client Website</h3>
             <div className="portfolio__item-cta">
-            <a href="https://github.com/R-Coder0/client_project"  target="_blank"   rel="noreferrer"  className="github-btn">Github</a>
+            <a href="https://github.com/R-Coder0/client_project
+            "  target="_blank"   rel="noreferrer"  className="github-btn">Github</a>
             <a href="https://varshapackersmovers.in/" className="livedemo-btn"  target="_blank"   rel="noreferrer">Live Demo</a>
             </div>
         </article>
