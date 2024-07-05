@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import img1 from '../../Assets/portfolio.png'
-import img3 from '../../Assets/E-LearningWeb.png'
+import img3 from '../../Assets/vpm.png'
 import img2 from '../../Assets/DigitalMarketing.png'
 import img4 from '../../Assets/weather-app.png'
 import img6 from '../../Assets/gym-app.png'
@@ -32,6 +32,17 @@ function Portfolio() {
 
         <article className='portfolio__item' data-aos="zoom-in-up">
             <div className="portfolio__image">
+                <img src={img3} alt="" />
+            </div>
+            <h3>Responsive Resturant Website</h3>
+            <div className="portfolio__item-cta">
+            <a href="https://github.com/R-Coder0/client_project"  target="_blank"   rel="noreferrer"  className="github-btn">Github</a>
+            <a href="https://varshapackersmovers.in/" className="livedemo-btn"  target="_blank"   rel="noreferrer">Live Demo</a>
+            </div>
+        </article>
+
+        <article className='portfolio__item' data-aos="zoom-in-up">
+            <div className="portfolio__image">
                 <img src={img2} alt="" />
             </div>
             <h3>Responsive Digital-Marketing Website</h3>
@@ -41,16 +52,6 @@ function Portfolio() {
             </div>
         </article>
 
-        <article className='portfolio__item' data-aos="zoom-in-up">
-            <div className="portfolio__image">
-                <img src={img3} alt="" />
-            </div>
-            <h3>Responsive Resturant Website</h3>
-            <div className="portfolio__item-cta">
-            <a href="https://github.com/R-Coder0/JBHOST23"  target="_blank"   rel="noreferrer"  className="github-btn">Github</a>
-            <a href="https://r-coder0.github.io/JBHOST23" className="livedemo-btn"  target="_blank"   rel="noreferrer">Live Demo</a>
-            </div>
-        </article>
 
         <article className='portfolio__item' data-aos="zoom-in-up">
             <div className="portfolio__image">
